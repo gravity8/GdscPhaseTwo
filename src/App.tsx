@@ -1,5 +1,5 @@
-// import { useState } from 'react'
-import React, { useState , useEffect} from 'react'
+
+import { useState , useEffect} from 'react'
 import './App.css'
 import VariantBg from './component/buttons/VariantBg'
 import VariantBorder from './component/buttons/VariantBorder'

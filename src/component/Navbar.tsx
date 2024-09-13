@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import {useState} from 'react'
 import VariantBg from './buttons/VariantBg'
 import { Twirl as Hamburger } from 'hamburger-react';
 
