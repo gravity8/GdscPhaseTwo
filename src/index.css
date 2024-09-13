@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+body{
+  @apply font-roboto
+}
+
+ul li {
+  @apply text-[0.88rem] font-light text-secondary hover:cursor-pointer relative ;
+}
+
+ul li:hover::after {
+  content: '';
+  @apply bg-primary h-[1.5px] w-full absolute bottom-0 left-0 duration-300;
+}
