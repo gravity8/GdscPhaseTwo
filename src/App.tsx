@@ -35,14 +35,14 @@ function App() {
 }, []);
 
   return (  
-    <section className=''>
+    <section className='max-w-[1400px] mx-auto relative'>
       <Navbar isStuck={isStuck}/>
-      <div className='flex w-full items-center md:ps-[10.3rem] px-[2rem] justify-between relative'>
+      <div className='flex w-full items-center max-lg:ps-[2rem] md:ps-[10.3rem] px-[2rem] justify-between relative'>
         <div className='md:mt-[14rem] mt-[7rem] mb-[28.7rem]'>
-          <h1 className='md:text-[3.13rem] text-[2.5rem] mb-[1.25rem] md:w-[33.69rem] text-primaryVariantTwo text-start md:leading-[4.13rem] leading-[2.8rem]'>
+          <h1 className='maxSm:w-full max-lg:text-[2.7rem] md:text-[3.13rem] text-[2.5rem] mb-[1.25rem] max-lg:w-[28rem] md:w-[33.69rem] text-primaryVariantTwo text-start md:leading-[4.13rem] leading-[2.8rem] maxSm:text-center'>
             Introduce Your Product Quickly & Effectively
           </h1>
-          <p className='text-[1.13rem] md:w-[33.69rem] text-secondary text-start leading-[1.88rem] mb-[4.31rem]'>
+          <p className='text-[1.13rem] maxSm:w-full max-lg:w-[28rem] md:w-[33.69rem] text-secondary text-start leading-[1.88rem] mb-[4.31rem] maxSm:text-center'>
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus 
           mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
           </p>
@@ -79,7 +79,7 @@ function App() {
         </div>
         <img src={imageOne} alt="imageOne" className='md:w-[33.75rem] md:h-[32.75rem]'/>
       </div>
-      <div className='flex flex-col gap-20 md:flex-row items-center justify-between md:px-[10rem] px-[2rem] py-[7.66rem] '>
+      <div className='flex flex-col gap-20 md:flex-row items-center justify-between max-lg:px-[5rem] md:px-[10rem] px-[2rem] py-[7.66rem] '>
         <img src={imageTwo} alt="" />
         <div className='md:w-[27.81rem]'>
           <h2 className='text-[2.25rem] text-primaryVariantTwo mb-[1rem]'>Light, Fast & Powerful</h2>
@@ -87,7 +87,7 @@ function App() {
           mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
         </div>
       </div>
-      <div className='flex flex-col gap-20 md:flex-row items-center justify-between md:px-[10rem] px-[2rem] py-[7.66rem]'>
+      <div className='flex flex-col gap-20 md:flex-row items-center justify-between max-lg:px-[5rem] md:px-[10rem] px-[2rem] py-[7.66rem]'>
         <img src={imageThree} alt="" />
         <div className='md:w-[27.81rem]'>
           <h2 className='text-[2.25rem] text-primaryVariantTwo mb-[1rem]'>Light, Fast & Powerful</h2>
@@ -95,7 +95,7 @@ function App() {
           mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
         </div>
       </div>
-      <div className='flex flex-col gap-20 md:flex-row items-center justify-between md:px-[10rem] px-[2rem] py-[7.66rem]'>
+      <div className='flex flex-col gap-20 md:flex-row items-center justify-between max-lg:px-[5rem] md:px-[10rem] px-[2rem] py-[7.66rem]'>
         <img src={imageFour} alt="" />
         <div className='md:w-[27.81rem]'>
           <h2 className='text-[2.25rem] text-primaryVariantTwo mb-[1rem]'>Light, Fast & Powerful</h2>

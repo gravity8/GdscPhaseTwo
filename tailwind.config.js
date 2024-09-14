@@ -13,7 +13,12 @@ export default {
         gray: "#5D6970"
       },
       screens:{
+
         maxWidth: {'max':'1440px'},
+
+        //breakpoint for max width of 1200px
+        'max-lg': { 'max': '1300px' },
+
         //breakpoint for max width of 768px
         maxSm : { 'max': '768px' },
       },

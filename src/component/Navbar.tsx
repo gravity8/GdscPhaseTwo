@@ -7,7 +7,7 @@ const Navbar = ({isStuck}:{isStuck:boolean}) => {
   const [openDrawer, setOpenDrawer] = useState<boolean>(false);
 
   return (
-    <nav className={`flex justify-between items-center w-full sticky top-0 maxSm:px-[2rem] py-5 z-20 md:px-[10.3rem] ${isStuck?" bg-white":""}`}>
+    <nav className={`flex justify-between items-center w-full sticky top-0 max-lg:px-[4rem] maxSm:px-[2rem] py-5 z-20 md:px-[10.3rem] ${isStuck?" bg-white":""}`}>
         <ul className=' list-none flex justify-between md:w-[15.31rem] maxSm:hidden'>
             <li>Home</li>
             <li>About</li>
